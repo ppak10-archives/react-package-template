@@ -14,14 +14,14 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
 });
 
 // Constants
-const PORT = 3001;
+const PORT = 3000;
 
 module.exports = {
   devServer: {
     port: PORT,
     historyApiFallback: true,
   },
-  entry: ['@babel/polyfill', PATH.join(__dirname, 'dev')],
+  entry: [PATH.join(__dirname, 'dev')],
   mode: 'development',
   module: {
     rules: [
