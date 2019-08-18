@@ -45,6 +45,7 @@
     "precss": "^4.0.0",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
+    "react-app-elements": "0.0.2",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "style-loader": "^1.0.0",

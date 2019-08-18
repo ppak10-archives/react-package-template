@@ -5,10 +5,8 @@
 
 // Node Modules
 import React from 'react';
+import {Navigation} from 'react-app-elements';
 import {BrowserRouter as Router} from 'react-router-dom';
-
-// Components
-import {Navigation} from './Navigation';
 
 export default function App() {
   return (
