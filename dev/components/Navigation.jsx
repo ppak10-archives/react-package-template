@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 export const Navigation = () => (
   <div className="navigation">
     <div className="logo">
-      <span>react-map-elements</span>
+      <span>react-package-template</span>
     </div>
     <ul>
       <li>

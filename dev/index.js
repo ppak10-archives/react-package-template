@@ -12,6 +12,6 @@ import './main.css';
 import '../src/stylesheets/main.less';
 
 // Components
-import {DevApp} from './components/DevApp';
+import App from './components/App';
 
-render(<DevApp />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
