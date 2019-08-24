@@ -6,12 +6,15 @@
 // Node Modules
 import React from 'react';
 import {Navigation} from 'react-app-elements';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 export default function App() {
   return (
     <Router>
-      <Navigation />
+      <Navigation logo="react-package-template">
+        <Link to="/1">Link 1</Link>
+        <Link to="/2">Link 2</Link>
+      </Navigation>
       <div className="page">Hello world</div>
     </Router>
   );
