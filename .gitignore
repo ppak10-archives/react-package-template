@@ -62,5 +62,15 @@ typings/
 
 .DS_Store
 *.swp
-dist
-src/css
+
+# Do not ignore
+!dev/*
+!src/*
+
+# Publish Output
+components.js
+index.js
+main.css
+proptypes.js
+
+# Add addition publish outputs here

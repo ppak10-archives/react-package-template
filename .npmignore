@@ -1,10 +1,12 @@
-src
+.circleci
 dev
+src
 
 # Dot Files
 .babelrc
 .eslintrc
 .gitignore
+.lintstagedrc
 .prettierrc
 .stylelintrc
 webpack.config.js
